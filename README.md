@@ -51,7 +51,7 @@ A beautiful React + Vite web app designed to provide spiritual support, study mo
 Rahat includes curated duas, Quranic verses, and supportive messages for its wellness and study features. Core content is bundled with the website in `src/data/messages.json`.
 
 ## Link to the website
-   [[https://aneeq-rl08.github.io/Rahat/]]
+   https://aneeq-rl08.github.io/Rahat/
 
 ## Quick Start
 
