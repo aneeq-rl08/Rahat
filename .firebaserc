@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "the-rahat",
+    "Rahat": "the-rahat"
+  },
+  "targets": {},
+  "etags": {}
+}

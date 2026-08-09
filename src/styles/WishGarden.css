@@ -1,0 +1,303 @@
+.wish-garden-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.back-button {
+  background: white;
+  border: 2px solid #667eea;
+  color: #667eea;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.back-button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-5px);
+}
+
+.wish-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.wish-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.wish-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.flowers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+
+.flower {
+  background: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  min-width: 150px; /* Touch target */
+  min-height: 150px; /* Touch target */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 4px solid var(--flower-color);
+  transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  font: inherit;
+}
+
+.flower:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.flower-icon {
+  display: grid;
+  place-items: center;
+  color: #2f5d62;
+  margin-bottom: 0.5rem;
+}
+
+.flower-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.particles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, #667eea, #764ba2);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.blessing-card-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.blessing-card {
+  background: white;
+  border-radius: 25px;
+  padding: 3rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #666;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-button:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.blessing-icon {
+  display: grid;
+  place-items: center;
+  color: #2f5d62;
+  margin-bottom: 1rem;
+}
+
+.blessing-title {
+  font-size: 2rem;
+  color: #667eea;
+  margin-bottom: 1.5rem;
+}
+
+.blessing-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.blessing-text.english {
+  color: #333;
+  font-style: italic;
+}
+
+.blessing-text.urdu {
+  color: #666;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .flowers-container {
+    gap: 3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .wish-garden-container {
+    padding: 1rem;
+  }
+
+  .wish-header {
+    margin-bottom: 2rem;
+  }
+
+  .wish-header h1 {
+    font-size: 2rem;
+  }
+
+  .wish-header p {
+    font-size: 1rem;
+  }
+
+  .flowers-container {
+    gap: 2rem;
+    min-height: 300px;
+  }
+
+  .flower {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+
+  .flower-label {
+    font-size: 1rem;
+  }
+
+  .blessing-card {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .blessing-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .blessing-text {
+    font-size: 1.1rem;
+  }
+
+  .close-button {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .wish-garden-container {
+    padding: 0.75rem;
+  }
+
+  .back-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .wish-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .wish-header p {
+    font-size: 0.9rem;
+  }
+
+  .flowers-container {
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flower {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+  }
+
+
+  .blessing-card {
+    padding: 1.25rem;
+    max-width: 95%;
+  }
+
+  .blessing-icon {
+    font-size: 3rem;
+  }
+
+  .blessing-title {
+    font-size: 1.25rem;
+  }
+
+  .blessing-text {
+    font-size: 1rem;
+  }
+}
+
+
+

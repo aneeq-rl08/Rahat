@@ -1,0 +1,267 @@
+.mood-selector-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.back-button {
+  background: white;
+  border: 2px solid #667eea;
+  color: #667eea;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.back-button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-5px);
+}
+
+.mood-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mood-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.mood-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.mood-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.mood-button {
+  background: white;
+  border: 3px solid var(--mood-color);
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-width: 150px;
+  min-height: 44px; /* Touch target */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  perspective: 1000px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.mood-button:hover {
+  background: var(--mood-color);
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.mood-button.selected {
+  background: var(--mood-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+.mood-icon { display: grid; place-items: center; }
+
+.mood-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.mood-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.content-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-card h3 {
+  font-size: 1.5rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.dua-text.arabic {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #333;
+  text-align: right;
+  direction: rtl;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.dua-translation {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.dua-translation.english {
+  font-style: italic;
+}
+
+.dua-translation.urdu {
+  text-align: right;
+  direction: rtl;
+}
+
+.message-text.english {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.message-text.urdu {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .mood-selector-container {
+    padding: 1.5rem;
+  }
+
+  .mood-buttons {
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mood-selector-container {
+    padding: 1rem;
+  }
+
+  .mood-header {
+    margin-bottom: 2rem;
+  }
+
+  .mood-header h1 {
+    font-size: 2rem;
+  }
+
+  .mood-header p {
+    font-size: 1rem;
+  }
+
+  .mood-buttons {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .mood-button {
+    padding: 1.5rem 1.5rem;
+    min-width: 140px;
+    border-radius: 15px;
+  }
+
+
+  .mood-label {
+    font-size: 1rem;
+  }
+
+  .content-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .content-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .dua-text.arabic {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+
+  .dua-translation {
+    font-size: 1rem;
+  }
+
+  .message-text.english {
+    font-size: 1.1rem;
+  }
+
+  .message-text.urdu {
+    font-size: 1rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .mood-selector-container {
+    padding: 0.75rem;
+  }
+
+  .back-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .mood-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .mood-header p {
+    font-size: 0.9rem;
+  }
+
+  .mood-buttons {
+    gap: 0.75rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mood-button {
+    padding: 1.25rem;
+    min-width: 100%;
+    width: 100%;
+  }
+
+
+  .content-card {
+    padding: 1.25rem;
+  }
+
+  .dua-text.arabic {
+    font-size: 1.1rem;
+  }
+}
+
+
+

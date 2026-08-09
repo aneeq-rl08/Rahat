@@ -1,0 +1,94 @@
+.ramadan-eid-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.ramadan-eid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+/* Mini Calendar Specific Styles */
+.calendar-day.eid-day {
+  background: #FFD700 !important;
+  color: #1C1C1C !important;
+  border: 2px solid #FFA500 !important;
+  box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3) !important;
+}
+
+.calendar-day.ramadan-day {
+  background: #A3C9A8 !important;
+  color: white !important;
+}
+
+.calendar-day.today {
+  background: #2F5D62 !important;
+  color: white !important;
+}
+
+/* Back Button Styling */
+.back-button {
+  background: white;
+  border: 2px solid #2F5D62;
+  color: #2F5D62;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.back-button:hover {
+  background: #2F5D62;
+  color: white;
+  transform: translateX(-5px);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ramadan-eid-page {
+    padding: 1.5rem;
+  }
+
+  .ramadan-eid-container {
+    padding-top: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ramadan-eid-page {
+    padding: 1rem;
+  }
+
+  .ramadan-eid-container {
+    padding-top: 1rem;
+  }
+
+  .back-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .ramadan-eid-page {
+    padding: 0.75rem;
+  }
+
+  .back-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}

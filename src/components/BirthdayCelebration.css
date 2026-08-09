@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.birthday-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.birthday-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    color: #FFB6C1;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.birthday-message {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    color: #FFB6C1;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.letter-container {
+  margin-top: 20px;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+.letter-content p {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-style: italic;
+  color: #333;
+}
+
+.highlight-box {
+  background: #fff0f6;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid var(--primary);
+  margin: 15px 0;
+}
+
+.signature {
+  margin-top: 20px;
+  font-style: italic;
+  text-align: right;
+  color: #666;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .birthday-container {
+    padding: 15px;
+  }
+  
+  .birthday-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .birthday-message {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .letter-container {
+    margin-top: 15px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  
+  .letter-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .highlight-box {
+    padding: 12px;
+    margin: 12px 0;
+  }
+  
+  .signature {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .birthday-container {
+    padding: 10px;
+  }
+  
+  .birthday-title {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .birthday-message {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .letter-container {
+    margin-top: 10px;
+    padding: 15px;
+  }
+  
+  .letter-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .highlight-box {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .signature {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .birthday-title {
+    font-size: 3rem;
+  }
+  
+  .birthday-message {
+    font-size: 1.6rem;
+  }
+  
+  .letter-container {
+    max-width: 500px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1025px) {
+  .birthday-container {
+    padding: 25px;
+  }
+  
+  .letter-container {
+    max-width: 600px;
+  }
+}

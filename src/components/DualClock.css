@@ -1,0 +1,150 @@
+.dual-clock {
+  width: 100%;
+  max-width: 430px;
+  height: 62px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Segoe UI', monospace;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  transition: background 1.5s ease;
+  position: relative;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.clock-label {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+  margin-right: 3px;
+  text-transform: uppercase;
+}
+
+.time {
+  font-size: clamp(11px, 2.5vw, 15px);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.time-suffix {
+  font-size: clamp(9px, 1.8vw, 11px);
+  font-weight: 700;
+  opacity: 1;
+  margin-left: 3px;
+  align-self: center;
+  letter-spacing: 0.4px;
+}
+
+.time-seconds {
+  font-size: clamp(11px, 2.5vw, 15px);
+  font-weight: 600;
+  opacity: 1;
+  margin-left: 0;
+  align-self: center;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 480px) {
+  .dual-clock {
+    height: 52px;
+    border-radius: 12px;
+    padding: 0 8px;
+  }
+
+  .clock-label {
+    font-size: 8px;
+  }
+
+  .time,
+  .time-seconds {
+    font-size: 11px;
+  }
+
+  .time-suffix {
+    font-size: 8px;
+    margin-left: 2px;
+  }
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.4);
+}
+
+
+/* ── Time-of-day colour themes ─────────────────────────── */
+
+/* Morning: warm gold on a sun-orange gradient (light bg → dark labels) */
+.dual-clock.morning .time,
+.dual-clock.morning .time-seconds {
+  color: #3b1a00;
+  text-shadow: 0 1px 3px rgba(255, 200, 100, 0.4);
+}
+.dual-clock.morning .time-suffix {
+  color: rgba(60, 30, 0, 0.75);
+}
+.dual-clock.morning .clock-label {
+  color: rgba(0, 0, 0, 0.85);
+}
+.dual-clock.morning .divider {
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+
+/* Afternoon: cool sky-blue gradient (light bg → dark labels) */
+.dual-clock.afternoon .time,
+.dual-clock.afternoon .time-seconds {
+  color: #00274d;
+  text-shadow: 0 1px 3px rgba(100, 200, 255, 0.4);
+}
+.dual-clock.afternoon .time-suffix {
+  color: rgba(0, 40, 80, 0.75);
+}
+.dual-clock.afternoon .clock-label {
+  color: rgba(0, 0, 0, 0.85);
+}
+.dual-clock.afternoon .divider {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Evening: pink/purple gradient (medium-light → dark labels) */
+.dual-clock.evening .time,
+.dual-clock.evening .time-seconds {
+  color: #2d0036;
+  text-shadow: 0 1px 3px rgba(255, 150, 220, 0.4);
+}
+.dual-clock.evening .time-suffix {
+  color: rgba(50, 0, 60, 0.75);
+}
+.dual-clock.evening .clock-label {
+  color: rgba(0, 0, 0, 0.85);
+}
+.dual-clock.evening .divider {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Night: dark teal gradient (dark bg → white/cyan labels) */
+.dual-clock.night .time,
+.dual-clock.night .time-seconds {
+  color: #a8edff;
+  text-shadow: 0 0 8px rgba(80, 200, 255, 0.6);
+}
+.dual-clock.night .time-suffix {
+  color: rgba(140, 210, 255, 0.8);
+}
+.dual-clock.night .clock-label {
+  color: rgba(255, 255, 255, 0.9);
+}
+

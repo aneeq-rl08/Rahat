@@ -1,0 +1,285 @@
+{
+  "moods": {
+    "happy": {
+      "duas": [
+        {
+          "arabic": "اللهم لك الحمد والشكر على نعمك الكثيرة",
+          "english": "O Allah, to You belongs all praise and thanks for Your abundant blessings",
+          "urdu": "اے اللہ، آپ کے لیے تمام تعریف اور شکر ہے آپ کی بے شمار نعمتوں پر"
+        },
+        {
+          "arabic": "الحمد لله الذي بنعمته تتم الصالحات",
+          "english": "All praise is due to Allah, by whose grace good deeds are completed",
+          "urdu": "تمام تعریف اللہ کے لیے ہے جس کی نعمت سے نیک کام مکمل ہوتے ہیں"
+        },
+        {
+          "arabic": "اللهم إني أسألك من فضلك ورحمتك",
+          "english": "O Allah, I ask You for Your bounty and Your mercy",
+          "urdu": "اے اللہ، میں آپ سے آپ کے فضل اور رحمت کا سوال کرتا ہوں"
+        }
+      ],
+      "messages": [
+        {
+          "english": "Praise be to Allah in all circumstances. Enjoy this beautiful moment.",
+          "urdu": "ہر حال میں اللہ کی حمد کرو۔ اس خوبصورت لمحے سے لطف اٹھاؤ۔"
+        },
+        {
+          "english": "Your happiness is a blessing from Allah. Be grateful to Him.",
+          "urdu": "آپ کی خوشی اللہ کی نعمت ہے۔ اس کا شکر ادا کریں۔"
+        },
+        {
+          "english": "A smile is charity. Make it a daily habit.",
+          "urdu": "مسکراہٹ صدقہ ہے۔ اسے روزانہ کی عادت بنائیں۔"
+        }
+      ]
+    },
+    "tired": {
+      "duas": [
+        {
+          "arabic": "اللهم أذهب عني الحزن والهم",
+          "english": "O Allah, remove from me sorrow and distress",
+          "urdu": "اے اللہ، مجھ سے غم اور پریشانی دور کر دے"
+        },
+        {
+          "arabic": "اللهم إني أعوذ بك من الهم والحزن",
+          "english": "O Allah, I seek refuge in You from worry and grief",
+          "urdu": "اے اللہ، میں آپ کی پناہ مانگتا ہوں پریشانی اور غم سے"
+        },
+        {
+          "arabic": "حسبي الله ونعم الوكيل",
+          "english": "Allah is sufficient for me, and He is the best disposer of affairs",
+          "urdu": "اللہ میرے لیے کافی ہے، اور وہ بہترین کارساز ہے"
+        }
+      ],
+      "messages": [
+        {
+          "english": "Rest is your right. Take a break and you'll return refreshed, God willing.",
+          "urdu": "آرام آپ کا حق ہے۔ تھوڑا سا آرام کریں اور آپ تازہ دم ہو کر واپس آئیں گے، انشاءاللہ۔"
+        },
+        {
+          "english": "Fatigue is temporary, and patience is the key to relief.",
+          "urdu": "تھکاوٹ عارضی ہے، اور صبر راحت کی کنجی ہے۔"
+        },
+        {
+          "english": "Rest a little. Your body needs rest.",
+          "urdu": "تھوڑا سا آرام کریں۔ آپ کے جسم کو آرام کی ضرورت ہے۔"
+        }
+      ]
+    },
+    "stressed": {
+      "duas": [
+        {
+          "arabic": "اللهم إني أعوذ بك من الهم والحزن والعجز والكسل",
+          "english": "O Allah, I seek refuge in You from worry, grief, incapacity, and laziness",
+          "urdu": "اے اللہ، میں آپ کی پناہ مانگتا ہوں پریشانی، غم، بے بسی اور سستی سے"
+        },
+        {
+          "arabic": "لا إله إلا أنت سبحانك إني كنت من الظالمين",
+          "english": "There is no deity except You. Glory be to You. Indeed, I have been of the wrongdoers",
+          "urdu": "آپ کے سوا کوئی معبود نہیں۔ آپ پاک ہیں۔ بے شک میں ظالموں میں سے تھا"
+        },
+        {
+          "arabic": "اللهم اكفني ما أهمني",
+          "english": "O Allah, suffice me with what concerns me",
+          "urdu": "اے اللہ، جو مجھے پریشان کرتا ہے اس سے مجھے کافی کر دے"
+        }
+      ],
+      "messages": [
+        {
+          "english": "Trust in Allah removes worry. Seek Allah's help in all your matters.",
+          "urdu": "اللہ پر بھروسہ پریشانی دور کرتا ہے۔ اپنے تمام معاملات میں اللہ سے مدد مانگیں۔"
+        },
+        {
+          "english": "Patience and trust are the keys to peace of mind.",
+          "urdu": "صبر اور بھروسہ ذہنی سکون کی کنجی ہیں۔"
+        },
+        {
+          "english": "Everything is by divine decree. Trust in Allah's wisdom.",
+          "urdu": "ہر چیز تقدیر سے ہے۔ اللہ کی حکمت پر بھروسہ کریں۔"
+        }
+      ]
+    },
+    "busy": {
+      "duas": [
+        {
+          "arabic": "اللهم بارك لي في وقتي",
+          "english": "O Allah, bless me in my time",
+          "urdu": "اے اللہ، میرے وقت میں برکت عطا فرما"
+        },
+        {
+          "arabic": "اللهم أعني على ذكرك وشكرك وحسن عبادتك",
+          "english": "O Allah, help me to remember You, thank You, and worship You well",
+          "urdu": "اے اللہ، مجھے اپنے ذکر، شکر اور اچھی عبادت پر مدد فرما"
+        },
+        {
+          "arabic": "ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار",
+          "english": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire",
+          "urdu": "اے ہمارے رب، ہمیں دنیا میں بھلائی عطا فرما اور آخرت میں بھی بھلائی، اور ہمیں آگ کے عذاب سے بچا"
+        }
+      ],
+      "messages": [
+        {
+          "english": "Organization and blessings in time make tasks easier.",
+          "urdu": "تنظیم اور وقت میں برکت کاموں کو آسان بناتی ہے۔"
+        },
+        {
+          "english": "Take your time and work with focus. Quality is more important than speed.",
+          "urdu": "اپنا وقت لیں اور توجہ کے ساتھ کام کریں۔ معیار رفتار سے زیادہ اہم ہے۔"
+        },
+        {
+          "english": "Blessings in time come from good planning.",
+          "urdu": "وقت میں برکت اچھی منصوبہ بندی سے آتی ہے۔"
+        }
+      ]
+    }
+  },
+  "study": {
+    "tips": [
+      {
+        "english": "Start with Bismillah and recite Ayat al-Kursi before studying",
+        "urdu": "بسم اللہ سے شروع کریں اور پڑھنے سے پہلے آیت الکرسی پڑھیں"
+      },
+      {
+        "english": "Take a break every 25 minutes to regain focus",
+        "urdu": "ہر 25 منٹ بعد وقفہ لیں تاکہ توجہ بحال ہو"
+      },
+      {
+        "english": "Review what you studied before sleep to enhance memory",
+        "urdu": "سونے سے پہلے جو پڑھا ہے اس کا جائزہ لیں تاکہ یادداشت بہتر ہو"
+      },
+      {
+        "english": "Use the Pomodoro technique to increase productivity",
+        "urdu": "پروڈکٹیویٹی بڑھانے کے لیے پومودورو تکنیک استعمال کریں"
+      },
+      {
+        "english": "Write summaries by hand to improve understanding",
+        "urdu": "فہم بہتر بنانے کے لیے ہاتھ سے خلاصے لکھیں"
+      },
+      {
+        "english": "Study in a quiet and well-lit place",
+        "urdu": "پرسکون اور روشن جگہ پر پڑھیں"
+      },
+      {
+        "english": "Drink water regularly while studying",
+        "urdu": "پڑھتے وقت باقاعدگی سے پانی پیئیں"
+      }
+    ],
+    "ayahs": [
+      {
+        "arabic": "وَقُل رَّبِّ زِدْنِي عِلْمًا",
+        "english": "And say: My Lord, increase me in knowledge",
+        "urdu": "اور کہو: اے میرے رب، مجھے علم میں اضافہ فرما"
+      },
+      {
+        "arabic": "وَمَا أُوتِيتُم مِّنَ الْعِلْمِ إِلَّا قَلِيلًا",
+        "english": "And you have not been given of knowledge except a little",
+        "urdu": "اور تمہیں علم میں سے بہت تھوڑا دیا گیا ہے"
+      },
+      {
+        "arabic": "يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ",
+        "english": "Allah will raise those who have believed among you and those who were given knowledge, by degrees",
+        "urdu": "اللہ تم میں سے ایمان والوں اور علم والوں کو درجات سے بلند کرے گا"
+      },
+      {
+        "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+        "english": "Recite in the name of your Lord who created",
+        "urdu": "اپنے رب کے نام سے پڑھو جس نے پیدا کیا"
+      }
+    ],
+    "motivational": [
+      {
+        "english": "Knowledge is light. Continue learning and you will find the light.",
+        "urdu": "علم روشنی ہے۔ سیکھتے رہیں اور آپ روشنی پائیں گے۔"
+      },
+      {
+        "english": "Every effort you put into learning is an investment in your future.",
+        "urdu": "سیکھنے میں آپ کی ہر کوشش آپ کے مستقبل میں سرمایہ کاری ہے۔"
+      },
+      {
+        "english": "Patience and perseverance are the keys to success in studies.",
+        "urdu": "صبر اور استقامت پڑھائی میں کامیابی کی کنجی ہیں۔"
+      },
+      {
+        "english": "Learning is a beautiful journey. Enjoy every step.",
+        "urdu": "سیکھنا ایک خوبصورت سفر ہے۔ ہر قدم سے لطف اٹھائیں۔"
+      }
+    ]
+  },
+  "wishes": {
+    "white": {
+      "title": "Dua",
+      "blessings": [
+        {
+          "english": "O Allah, bless me in my day and grant me success in my work",
+          "urdu": "اے اللہ، میرے دن میں برکت عطا فرما اور میرے کام میں کامیابی عطا فرما"
+        },
+        {
+          "english": "O Allah, grant me health, wellness, and strength",
+          "urdu": "اے اللہ، مجھے صحت، تندرستی اور طاقت عطا فرما"
+        },
+        {
+          "english": "O Allah, write goodness for me in every place",
+          "urdu": "اے اللہ، ہر جگہ میرے لیے بھلائی لکھ دے"
+        },
+        {
+          "english": "O Allah, grant me contentment and satisfaction",
+          "urdu": "اے اللہ، مجھے رضا اور قناعت عطا فرما"
+        },
+        {
+          "english": "O Allah, make me among the grateful ones",
+          "urdu": "اے اللہ، مجھے شکر گزاروں میں شامل فرما"
+        }
+      ]
+    },
+    "yellow": {
+      "title": "Positivity",
+      "blessings": [
+        {
+          "english": "Every new day is an opportunity to start fresh",
+          "urdu": "ہر نیا دن نیا آغاز کرنے کا موقع ہے"
+        },
+        {
+          "english": "Hope always exists. Never lose hope.",
+          "urdu": "امید ہمیشہ موجود ہے۔ کبھی امید نہ کھوئیں۔"
+        },
+        {
+          "english": "You are stronger than you think. Keep moving forward.",
+          "urdu": "آپ سوچ سے زیادہ مضبوط ہیں۔ آگے بڑھتے رہیں۔"
+        },
+        {
+          "english": "Positivity brings goodness. Think positively.",
+          "urdu": "مثبت سوچ بھلائی لاتی ہے۔ مثبت سوچیں۔"
+        },
+        {
+          "english": "The future is bright for those who work hard",
+          "urdu": "محنت کرنے والوں کا مستقبل روشن ہے"
+        }
+      ]
+    },
+    "blue": {
+      "title": "Motivation",
+      "blessings": [
+        {
+          "english": "You are capable of achieving your goals. Believe in yourself.",
+          "urdu": "آپ اپنے اہداف حاصل کرنے کی صلاحیت رکھتے ہیں۔ اپنے آپ پر یقین رکھیں۔"
+        },
+        {
+          "english": "Every small step brings you closer to your big goal",
+          "urdu": "ہر چھوٹا قدم آپ کو بڑے ہدف کے قریب لاتا ہے"
+        },
+        {
+          "english": "Challenges make champions. Face challenges with courage.",
+          "urdu": "چیلنجز چیمپئن بناتے ہیں۔ چیلنجز کا بہادرانہ مقابلہ کریں۔"
+        },
+        {
+          "english": "Success comes to those who never give up. Keep trying.",
+          "urdu": "کامیابی انہیں ملتی ہے جو کبھی ہار نہیں مانتے۔ کوشش جاری رکھیں۔"
+        },
+        {
+          "english": "Your inner strength is greater than any difficulty",
+          "urdu": "آپ کی اندرونی طاقت کسی بھی مشکل سے بڑی ہے"
+        }
+      ]
+    }
+  }
+}

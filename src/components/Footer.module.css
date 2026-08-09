@@ -1,0 +1,74 @@
+.footer {
+  position: relative;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: transparent;
+  border-top: none;
+  z-index: 5;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: rgba(40, 40, 40, 0.85);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.5px;
+}
+
+.linkButton {
+  border: none;
+  background: transparent;
+  padding: 0;
+  min-height: unset;
+  min-width: unset;
+  line-height: 1.1;
+  font-size: 0.85rem;
+  color: rgba(102, 126, 234, 0.95);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+.gitlabLink { display: inline-flex; align-items: center; gap: 3px; color: rgba(47, 93, 98, 0.95); font-size: 0.82rem; text-underline-offset: 3px; }
+.gitlabLink:focus-visible { outline: 3px solid rgba(102, 126, 234, 0.35); outline-offset: 3px; border-radius: 4px; }
+
+.linkButton:focus-visible {
+  outline: 3px solid rgba(102, 126, 234, 0.35);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+.copyright {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(70, 70, 70, 0.7);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px 12px;
+  }
+
+  .brand {
+    font-size: 0.88rem;
+  }
+
+  .linkButton {
+    font-size: 0.82rem;
+  }
+
+  .copyright {
+    font-size: 0.74rem;
+  }
+}
